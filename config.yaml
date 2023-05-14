@@ -11,6 +11,10 @@ permalinks:
   note: "/note/:year/:month/:day/:slug/"
   post: "/post/:year/:month/:day/:slug/"
 
+output:
+  blogdown::html_page:
+    toc: true
+
 menu:
   main:
     - name: Home
@@ -38,3 +42,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      table: true

@@ -11,6 +11,7 @@ tags:
 - Pandoc
 - RStudio
 title: A Plain Markdown Post
+toc: true
 ---
 
 This sample post is mainly for [**blogdown**](https://github.com/rstudio/blogdown) users. If you do not use **blogdown**, you can skip the first section.

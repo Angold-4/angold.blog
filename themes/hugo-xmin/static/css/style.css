@@ -46,6 +46,14 @@ table {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
+
+.terms { font-size: .9em; }
+
+#TableOfContents, #TOC {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
