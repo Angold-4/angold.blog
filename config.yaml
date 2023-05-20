@@ -34,7 +34,7 @@ menu:
 
 params:
   description: "Angold WANG's Blog."
-  footer: "&copy; [Angold WANG](https://angold.blog) 2023 -- {Year} | [Github](https://github.com/Angold-4) | [Twitter](https://twitter.com/wAngold4w)"
+  footer: "&copy; [Angold WANG](https://angold.blog) 2021 -- {Year} | [Github](https://github.com/Angold-4) | [Twitter](https://twitter.com/wAngold4w)"
 
 markup:
   highlight:

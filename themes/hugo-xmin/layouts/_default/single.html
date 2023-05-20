@@ -13,7 +13,16 @@
 </div>
 
 {{ if .Params.toc }}
-{{ .TableOfContents }}
+<div id="toc-container">
+    <div id="TableOfContents">
+        {{ .TableOfContents }}
+    </div>
+    {{ if .Params.header_img }}
+    <div id="header-image">
+        <img src="{{ .Params.header_img }}" alt="Header Image">
+    </div>
+    {{ end }}
+</div>
 {{ end }}
 
 <main>

@@ -41,6 +41,23 @@ blockquote {
   padding: 3px 1em 3px;
 }
 
+h2 {
+    border-bottom: 1px solid #666; /* Increase thickness to 2px, change color to grey */
+    padding-bottom: 0px; /* Decrease padding to move line closer */
+    margin-bottom: 0; /* Remove margin to move line closer */
+    font-size: 2em;
+}
+
+.author, .date {
+    font-size: 1.2em; /* This is roughly equivalent to the <h4> size. Adjust as needed. */
+    border-bottom: none; /* This removes the line below */
+}
+
+h3 {
+    font-size: 1.5em; /* adjust as needed */
+    margin-bottom: 0; /* Remove margin to move line closer */
+}
+
 table {
   margin: auto;
   border-top: 1px solid #666;
@@ -49,9 +66,57 @@ table {
 
 .terms { font-size: .9em; }
 
-#TableOfContents, #TOC {
+figure.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+
+figure.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.image figcaption {
+  text-align: center;  /* Centers the text */
+  font-style: italic;  /* Makes the text italic */
+  margin-top: 5px;  /* Adds some space between the image and the caption */
+  font-size: 0.9em;  /* Makes the text a bit smaller than the normal text size */
+  color: grey;  /* Changes the text color */
+}
+
+#toc-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#TableOfContents, #header-image {
   border: 1px solid #eee;
   border-radius: 5px;
+  padding: 10px;
+}
+
+#header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#TableOfContents {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#header-image {
+  padding: 10px;
+}
+
+#header-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 table thead th { border-bottom: 1px solid #ddd; }
